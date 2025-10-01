@@ -6,9 +6,21 @@ function App() {
 
   return (
     <div>
-      <h2 className="text-5xl bg-red-700">Number is {num}</h2>
-      <button onClick={() => setnum(num + 10)}>Increment</button>
-      <button onClick={() => setnum(num - 10)}>Decrement</button>
+      <h2 className="text-4xl px-6 py-5 text-black font-semibold">
+        Number is {num}
+      </h2>
+      <button
+        className="px-4 py-2 bg-emerald-600 rounded mx-6 font-semibold"
+        onClick={() => setnum(num + 10)}
+      >
+        Increment
+      </button>
+      <button
+        className="px-4 py-2 bg-emerald-600 rounded font-semibold"
+        onClick={() => setnum(num - 10)}
+      >
+        Decrement
+      </button>
     </div>
   );
 }
