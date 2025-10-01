@@ -26,3 +26,56 @@ function App() {
 }
 
 export default App;
+
+// -----------------------------------------✨Enhanced Version✨------------------------------------------------------
+
+// import React, { useState } from "react";
+
+// function App() {
+//   const [num, setnum] = useState(0);
+
+//   return (
+//     <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4">
+//       {/* Counter Container: Glassmorphism effect */}
+//       <div className="bg-white/30 backdrop-blur-lg border border-white/40 rounded-3xl shadow-xl p-8 max-w-sm w-full transition-all duration-300 hover:shadow-2xl">
+        
+//         {/* Title/Display */}
+//         <h2 className="text-5xl font-extrabold text-gray-800 mb-8 text-center tracking-tight transition-colors duration-300">
+//           <span className="block text-sm font-medium text-gray-600 mb-1">Current Value</span>
+//           {num}
+//         </h2>
+        
+//         {/* Buttons Container */}
+//         <div className="flex justify-center space-x-4">
+          
+//           {/* Decrement Button */}
+//           <button
+//             className="flex-1 px-6 py-3 bg-red-500 text-white font-semibold text-lg rounded-full shadow-lg hover:bg-red-600 transition-all duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-4 focus:ring-red-300"
+//             onClick={() => setnum(num - 10)}
+//           >
+//             -10
+//           </button>
+          
+//           {/* Increment Button */}
+//           <button
+//             className="flex-1 px-6 py-3 bg-blue-500 text-white font-semibold text-lg rounded-full shadow-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-4 focus:ring-blue-300"
+//             onClick={() => setnum(num + 10)}
+//           >
+//             +10
+//           </button>
+//         </div>
+
+//         {/* Reset Button (Optional) */}
+//         <button
+//           className="mt-6 w-full py-2 text-sm text-gray-700 bg-gray-200 rounded-full hover:bg-gray-300 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-gray-400"
+//           onClick={() => setnum(0)}
+//         >
+//           Reset
+//         </button>
+
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default App;
