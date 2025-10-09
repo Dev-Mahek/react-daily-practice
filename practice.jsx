@@ -41,12 +41,12 @@ const App = () => {
   // 'setnum' is the function used to update the value of 'num'
   const [num, setnum] = useState(0);
 
-  // Function to increase the number by 10 when called
+  // 👇 Function to increase the number by 10 when called
   const increase = () => {
     setnum(num + 10);
   };
 
-  // Function to decrease the number by 10 when called
+  // 👇 Function to decrease the number by 10 when called
   const decrease = () => {
     setnum(num - 10);
   };
@@ -56,7 +56,7 @@ const App = () => {
       {/* Display the current number */}
       <h1 className="text-5xl mb-5">Number is {num}</h1>
 
-      {/* Button to increase the number by 10 when clicked */}
+      {/* Button to 👇 increase the number by 10 when clicked */}
       <button
         onClick={increase}
         className="bg-green-400 hover:bg-green-500 py-1 px-2 rounded text-black"
@@ -64,7 +64,7 @@ const App = () => {
         Increment
       </button>
 
-      {/* Button to decrease the number by 10 when clicked */}
+      {/* Button to 👇 decrease the number by 10 when clicked */}
       <button
         onClick={decrease}
         className="bg-red-400 hover:bg-red-500 py-1 px-2 rounded text-black ml-2"
