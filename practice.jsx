@@ -124,3 +124,40 @@ const App = () => {
 };
 
 export default App;
+
+//➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖PROPS➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+
+//>IN APP.jsx 👇
+import React from "react";
+import Card from "./components/Card";
+
+const App = () => {
+  let user = "Mahek"; /*👈make a variable named "user"*/
+
+  return (
+    <div>
+      <Card p={user} />
+      {/* <Card p="Mahek" /> 👈can be written in this way also */}
+    </div>
+    /*👆passing that variable in "Card" tag under "p" you can name it anything*/
+  );
+};
+
+export default App;
+
+//>IN CARD.jsx (Component) 👇
+import React from "react";
+
+const Card = (props) => {
+  console.log(props.p); //👈this will show the varbaile which we pass in "card" tag p=Mahek
+  return (
+    <div>
+      <h1>Hii {props.p}</h1>
+    </div>
+    //👆"props.p" this will show "Mahek" after "Hii"
+  );
+};
+
+export default Card;
+
+
