@@ -82,45 +82,6 @@ export default App;
 import React, { useState } from "react";
 
 const App = () => {
-  const [username, setuser] = useState("");
-
-  const subhandler = (e) => {
-    e.preventDefault();
-    console.log("submited");
-
-    setuser("");
-  };
-
-  return (
-    <div>
-      <form
-        onSubmit={(e) => {
-          subhandler(e);
-        }}
-        className="m-6"
-      >
-        <input
-          value={username}
-          onChange={(e) => {
-            setuser(e.target.value);
-          }}
-          className="bg-white text-black rounded w-70 h-8 px-4 py-2"
-          type="text"
-          placeholder="Enter Name"
-        />
-        <button className="ml-3 bg-green-400 py-1 px-2 rounded">Submit</button>
-      </form>
-    </div>
-  );
-};
-
-export default App;
-
-//----------------same code 👇 but with comments(delete the above code once i understood and practice)-------------------
-
-import React, { useState } from "react";
-
-const App = () => {
   // State for the input field's current value.
   // "username" holds the text shown in the input (read value).
   // "setuser" updates that state (write value), causing a re-render.
