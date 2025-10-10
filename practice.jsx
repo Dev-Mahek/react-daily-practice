@@ -196,7 +196,7 @@ const Card = (props) => {
 
 export default Card;
 
-//✅ PASS ELEMENTS INTO COMPONENTS SING JSON DATA:-
+//✅ PASS ELEMENTS INTO COMPONENTS USING JSON DATA:-
 //>IN APP.jsx:
 import React from "react";
 import Card from "./components/Card";
