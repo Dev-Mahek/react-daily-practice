@@ -127,6 +127,7 @@ export default App;
 
 //➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖PROPS➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 
+//✅ SENDING A "SINGLE" ELEMENT INTO A COMPONENT AND RECEIVING IT:-
 //>IN APP.jsx 👇
 import React from "react";
 import Card from "./components/Card";
@@ -160,4 +161,40 @@ const Card = (props) => {
 
 export default Card;
 
+//✅ SENDING MULTIPLE "ELEMENTS" INTO A COMPONENT:-
+//>IN APP.jsx:👇
+import React from "react";
+import Card from "./components/Card";
 
+const App = () => {
+  return (
+    <div>
+      <Card u="Mahek" a="25" c="Silchar" />
+    </div>
+    //👆sending multiple elements into "Card"
+  );
+};
+
+export default App;
+
+//>IN CARD.jsx:👇
+import React from "react";
+
+const Card = (props) => {
+  console.log(props);
+
+  return (
+    <div className="p-10 ">
+      <h1>Username is, {props.u}</h1>  //👈receiving user name "u" to print on screen
+      <h2>
+        {props.c}, {props.a}  //👈receiving city and age "c", "a" to print on screen
+      </h2>
+      <button className="bg-red-500 py-2 px-3">Add Friend</button>
+    </div>
+  );
+};
+
+export default Card;
+
+//✅ PASS ELEMENTS INTO COMPONENTS SING JSON DATA:-
+//>IN APP.jsx:
