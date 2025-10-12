@@ -198,6 +198,38 @@ const Card = (props) => {
 
 export default Card;
 
+//-----------------
+//>IN APP.jsx:
+
+import React from "react";
+import Card from "./components/Card";
+
+const App = () => {
+  const data = { name: "Mahek", age: "25", city: "Silchar" };
+  return (
+    <div>
+      <Card n={data} />
+    </div>
+  );
+};
+
+export default App;
+
+//>IN CARD.jxs
+import React from "react";
+
+const Card = (props) => {
+  return (
+    <div className="p-20">
+      <h1>Name: {props.n.name}</h1>
+      <h2>Age: {props.n.age}</h2>
+      <h2>City: {props.n.city}</h2>
+    </div>
+  );
+};
+
+export default Card;
+
 //✅ PASS ELEMENTS INTO COMPONENTS USING JSON DATA:-
 //>IN APP.jsx:
 import React from "react";
@@ -326,7 +358,7 @@ const App = () => {
 
 export default App;
 
-//➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖API CALLING➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+//➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖REACT ROUTER DOM➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 
 //✅ ROUTER DOM:-
 // IN APP.jsx:
