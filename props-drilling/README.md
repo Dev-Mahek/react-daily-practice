@@ -1,5 +1,9 @@
 # Dynamic Card UI 🎴
 
+
+<img width="1242" height="544" alt="Screenshot 2025-10-15 111531" src="https://github.com/user-attachments/assets/3f1120c5-04c4-4800-9cb3-5c5b7f1c05a6" />
+
+
 A modern React component project that displays dynamic user profile cards with custom colors, headings, and smooth UI elements — built with Tailwind CSS and Lucide Icons.
 
 Each card is generated from an array of data objects, making it easy to customize, extend, or reuse in other projects.
