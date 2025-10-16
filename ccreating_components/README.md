@@ -1,7 +1,5 @@
 # 🔰 React Components & Props Example
 
-<img width="1813" height="636" alt="Untitled" src="https://github.com/user-attachments/assets/b5880c71-ccef-4706-a82c-213233b2fe06" />
-
 
 <p>This project demonstrates how to create, reuse, and pass data to components in React using props. It’s a beginner-friendly 
 example showing how you can structure and use components effectively to build dynamic UIs.</p>
