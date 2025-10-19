@@ -165,4 +165,62 @@ const Card = (props) => {
 ``
 
 ```bash
+const wifus = [
+  {
+    name: "Rem",
+    charm: "Sweet and loyal personality",
+    age: 18,
+    anime_name: "Re:Zero",
+    profile_photo: "https://animetree.wordpress.com/...jpg",
+  },
+  {
+    name: "Mikasa Ackerman",
+    charm: "Strong, protective, and graceful in battle",
+    age: 19,
+    anime_name: "Attack on Titan",
+    profile_photo: "https://upload-os-bbs.hoyolab.com/...webp",
+  },
+  // more objects...
+];
+
+return (
+  <div>
+    {wifus.map((e, idx) => (
+      <Card
+        key={idx}
+        wifu={e.name}
+        c={e.charm}
+        a={e.age}
+        Aname={e.anime_name}
+        pic={e.profile_photo}
+      />
+    ))}
+  </div>
+);
 ```
+
+``
+🗂️ Card.jsx
+``
+
+```bash
+const Card = (props) => {
+  return (
+    <div className="p-10">
+      <img className="h-32 w-32 rounded-full mb-3" src={props.pic} alt="" />
+      <h1>Name: {props.wifu}</h1>
+      <h2>
+        Charm: {props.c}, Age: {props.a}
+      </h2>
+      <h2>Anime Name: {props.Aname}</h2>
+      <button className="bg-red-500 py-2 px-3">Add Friend</button>
+    </div>
+  );
+};
+```
+
+🧠 Concept: .map() lets you render multiple components dynamically.
+Each card receives data through props for that specific object.
+
+##
+
