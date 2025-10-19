@@ -32,4 +32,22 @@ Each example builds on the previous one to show how flexible and powerful props 
 
 1. Clone this repository
 ```bash
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd <your-repo-name>
 ```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Run the development server
+```bash
+npm run dev
+```
+
+or (if using CRA):
+```bash
+npm start
+```
+
