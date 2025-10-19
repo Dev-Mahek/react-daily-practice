@@ -224,3 +224,6 @@ Each card receives data through props for that specific object.
 
 ##
 
+<h3>🪪 License</h3>
+
+Licensed under the MIT License — feel free to use, modify, and learn from it.
