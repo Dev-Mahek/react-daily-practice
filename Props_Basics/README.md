@@ -128,3 +128,41 @@ const Card = (props) => {
 ##
 
 <h3>🧩 Example 3 — Passing an Object as a Prop</h3>
+
+``
+🗂️ App.jsx
+``
+
+```bash
+const data = { name: "Mahek", age: "25", city: "Silchar" };
+<Card n={data} />;
+```
+
+``
+🗂️ Card.jsx
+``
+
+```bash
+const Card = (props) => {
+  return (
+    <div className="p-20">
+      <h1>Name: {props.n.name}</h1>
+      <h2>Age: {props.n.age}</h2>
+      <h2>City: {props.n.city}</h2>
+    </div>
+  );
+};
+```
+
+🧠 Concept: You can pass an entire object and access its properties using props.n.name, props.n.age, etc.
+
+##
+
+<h3>🧩 Example 4 — Using Props with JSON Array (Dynamic Rendering)</h3>
+
+``
+🗂️ App.jsx
+``
+
+```bash
+```
