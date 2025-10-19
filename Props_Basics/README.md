@@ -51,3 +51,45 @@ or (if using CRA):
 npm start
 ```
 
+##
+
+<h3>🧩 Example 1 — Passing a Single Prop</h3>
+
+``
+🗂️ App.jsx
+``
+
+```bash
+import React from "react";
+import Card from "./components/Card";
+
+const App = () => {
+  let user = "Mahek";
+  return (
+    <div>
+      <Card p={user} />
+      {/* <Card p="Mahek" /> works too */}
+    </div>
+  );
+};
+
+export default App;
+```
+
+``
+🗂️ Card.jsx
+``
+
+```bash
+import React from "react";
+
+const Card = (props) => {
+  return (
+    <div>
+      <h1>Hii {props.p}</h1>
+    </div>
+  );
+};
+
+export default Card;
+```
