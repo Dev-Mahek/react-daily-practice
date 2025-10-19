@@ -93,3 +93,38 @@ const Card = (props) => {
 
 export default Card;
 ```
+🧠 Concept: Props let you pass data from parent (App) to child (Card) components
+
+##
+
+<h3>🧩 Example 2 — Passing Multiple Props</h3>
+
+``
+🗂️ App.jsx
+``
+
+```bash
+<Card u="Mahek" a="25" c="Silchar" />
+```
+
+``
+🗂️ Card.jsx
+``
+
+```bash
+const Card = (props) => {
+  return (
+    <div className="p-10">
+      <h1>Username is {props.u}</h1>
+      <h2>{props.c}, {props.a}</h2>
+      <button className="bg-red-500 py-2 px-3">Add Friend</button>
+    </div>
+  );
+};
+```
+
+🧠 Concept: You can send multiple props like u, a, c (name, age, city) to one component.
+
+##
+
+<h3>🧩 Example 3 — Passing an Object as a Prop</h3>
