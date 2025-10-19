@@ -1,7 +1,5 @@
 # 🎯 React Props Examples — Passing Data Between Components
 
-![5 Main Types of React Hooks](https://github.com/user-attachments/assets/020e0715-a977-4beb-bdb5-1b6624392305)
-
 This project demonstrates multiple ways to pass data using props in React — from sending a single variable to mapping and rendering components using JSON data.
 Each example builds on the previous one to show how flexible and powerful props are in component-based design.
 
