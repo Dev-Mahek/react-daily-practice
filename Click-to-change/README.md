@@ -55,3 +55,19 @@ const App = () => {
 
 export default App;
 ```
+##
+
+# ⚙️ How It Works
+
+1. The component initializes click as "Mahek".
+2. The UI displays Hi Mahek.
+3. When the user clicks the Change button:
+  - The clicked() function runs.
+  - It calls setclick("Dev_Mahek").
+  - React re-renders the component showing Hi Dev_Mahek.
+
+---
+
+# 📜 License
+
+This project is open-source and available under the MIT License.
