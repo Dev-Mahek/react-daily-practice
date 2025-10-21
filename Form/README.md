@@ -4,7 +4,7 @@ This project demonstrates how to create a **controlled form component** in React
 
 ---
 
-## 🚀 Features
+<h3>🚀 Features</h3>
 
 - ✅ Controlled input using React state  
 - ✅ Real-time updates as the user types  
@@ -14,7 +14,7 @@ This project demonstrates how to create a **controlled form component** in React
 
 ---
 
-## 🧠 Concept Overview
+<h3>🧠 Concept Overview</h3>
 
 A **controlled component** means:
 - The input field’s value is **controlled by React state** (`username`).
@@ -25,7 +25,7 @@ This pattern ensures synchronization between the UI and the underlying data.
 
 ---
 
-## 💻 Code Explanation
+<h3>💻 Code Explanation</h3>
 
 ```jsx
 import React, { useState } from "react";
@@ -58,3 +58,20 @@ const App = () => {
 export default App;
 ```
 
+---
+
+<h3>🧩 How It Works</h3>
+
+1. User types in the input field.
+2. The onChange handler updates the username state.
+3. The input’s value prop reflects that updated state.
+4. On form submission:
+   - preventDefault() stops the page reload.
+   - You can log or use the input value.
+   - Input field resets to empty.
+  
+---
+
+<h3>📜 License</h3>
+
+This project is open-source and available under the MIT License.
