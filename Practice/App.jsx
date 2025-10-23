@@ -358,6 +358,33 @@ const App = () => {
 
 export default App;
 
+//-----------------------------------------------------------------------------------------------
+
+//IN APP.jsx:
+import axios from "axios";
+import React from "react";
+
+const App = () => {
+  async function getData() {
+    //------------------------------------with fetch calling api---------------------------------
+    const resp = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+    console.log(resp);
+    //----------------------------------with axios calling api------------------------------------
+    const resp1 = await axios.get(
+      "https://jsonplaceholder.typicode.com/todos/1"
+    );
+    console.log(resp1);
+  }
+
+  return (
+    <div>
+      <button onClick={getData}>get data</button>
+    </div>
+  );
+};
+
+export default App;
+
 //➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖REACT ROUTER DOM➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 
 //✅ ROUTER DOM:-
