@@ -26,3 +26,9 @@ Axios is used for making HTTP requests, and useState manages the component state
 
 ##
 
+- Main Component
+
+```bash
+const [d, setd] = useState([]);
+```
+
