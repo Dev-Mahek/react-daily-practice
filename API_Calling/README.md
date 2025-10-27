@@ -35,3 +35,14 @@ d stores the data fetched from the API.
 
 ##
 
+- Fetching Data
+
+```bash
+const getData = async () => {
+  const response = await axios.get("https://picsum.photos/v2/list");
+  setd(response.data);
+};
+```
+The function getData() calls the API and updates the state with the response data.
+
+##
