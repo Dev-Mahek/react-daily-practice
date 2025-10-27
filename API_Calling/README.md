@@ -67,3 +67,10 @@ Once data is fetched, the authors’ names from the API are displayed dynamicall
 
 ##
 
+<h3>🖼️ API Used</h3>
+
+- Endpoint: https://picsum.photos/v2/list
+- Provides random image data including author names and image URLs.
+
+##
+
