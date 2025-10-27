@@ -74,3 +74,8 @@ Once data is fetched, the authors’ names from the API are displayed dynamicall
 
 ##
 
+<h3>🧰 Tech Stack</h3>
+
+- React.js
+- Axios
+- Tailwind CSS
