@@ -31,4 +31,7 @@ Axios is used for making HTTP requests, and useState manages the component state
 ```bash
 const [d, setd] = useState([]);
 ```
+d stores the data fetched from the API.
+
+##
 
