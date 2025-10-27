@@ -46,3 +46,24 @@ const getData = async () => {
 The function getData() calls the API and updates the state with the response data.
 
 ##
+
+- Rendering Data
+
+```bash
+{d.map((elem, idx) => (
+  <h1 key={idx}>{elem.author}</h1>
+))}
+```
+Once data is fetched, the authors’ names from the API are displayed dynamically.
+
+##
+
+<h3>🧠 How It Works</h3>
+
+1. User clicks the “Get Data” button.
+2. getData() runs and fetches data from the Picsum API.
+3. Data is stored in the state variable d.
+4. The component re-renders to show all authors from the fetched data.
+
+##
+
