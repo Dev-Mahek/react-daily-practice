@@ -22,6 +22,7 @@ This project demonstrates a simple API call in React using Axios. It fetches dat
 import axios from "axios";
 import React, { useState } from "react";
 ```
+Axios is used for making HTTP requests, and useState manages the component state.
 
 ##
 
