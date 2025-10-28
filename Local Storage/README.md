@@ -25,6 +25,8 @@ localStorage.setItem("age", "24");
 ```
 Stores the string value "24" under the key "age" in the browser’s local storage.
 
+##
+
 ### 2. **Saving Objects**
 
 ```javascript
@@ -37,6 +39,8 @@ localStorage.setItem("user", JSON.stringify(user1));
 ```
 Objects must be converted into a string format before being stored, using JSON.stringify().
 
+##
+
 ### 3. **Retrieving Data (Commented Example)**
 
 ```javascript
@@ -46,4 +50,3 @@ Objects must be converted into a string format before being stored, using JSON.s
 To use stored data, retrieve it using localStorage.getItem() and convert it back into an object using JSON.parse().
 
 ##
-
