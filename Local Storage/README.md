@@ -36,3 +36,14 @@ const user1 = {
 localStorage.setItem("user", JSON.stringify(user1));
 ```
 Objects must be converted into a string format before being stored, using JSON.stringify().
+
+### 3. **Retrieving Data (Commented Example)**
+
+```javascript
+// const user = localStorage.getItem("user");
+// console.log(user);
+```
+To use stored data, retrieve it using localStorage.getItem() and convert it back into an object using JSON.parse().
+
+##
+
