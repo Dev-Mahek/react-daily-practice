@@ -16,3 +16,23 @@ The code performs the following actions:
 
 ---
 
+## 🧠 Key Concepts
+
+### 1. **Saving Data to Local Storage**
+
+```javascript
+localStorage.setItem("age", "24");
+```
+Stores the string value "24" under the key "age" in the browser’s local storage.
+
+### 2. **Saving Objects**
+
+```javascript
+const user1 = {
+  username: "Roy",
+  age: 24,
+  city: "Silchar",
+};
+localStorage.setItem("user", JSON.stringify(user1));
+```
+Objects must be converted into a string format before being stored, using JSON.stringify().
