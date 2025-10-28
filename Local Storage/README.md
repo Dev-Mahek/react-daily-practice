@@ -69,5 +69,3 @@ npm start
 ```
 
 4. Open the browser console (F12 → Console tab) to view the stored object.
-
-##
