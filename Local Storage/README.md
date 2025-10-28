@@ -50,3 +50,24 @@ Objects must be converted into a string format before being stored, using JSON.s
 To use stored data, retrieve it using localStorage.getItem() and convert it back into an object using JSON.parse().
 
 ##
+
+## ⚙️ How to Run
+
+1. Create a new React project:
+
+```bash
+npx create-react-app localstorage-demo
+cd localstorage-demo
+```
+
+2. Replace the contents of App.js with the code.
+
+3. Start the development server:
+
+```bash
+npm start
+```
+
+4. Open the browser console (F12 → Console tab) to view the stored object.
+
+##
