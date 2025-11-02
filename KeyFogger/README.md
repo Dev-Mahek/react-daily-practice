@@ -34,3 +34,23 @@ It creates strong, secure passwords while giving a satisfying mechanical animati
   -  Digits (except 0, 1)    
   -  Special symbols (!@#$%^&*()-_=+[]{};:,.?)
 4. The generated password appears in the display box.
+
+---
+
+## 🧩 Code Highlights
+
+- Secure Random Generation:
+```bash
+const getRand = (max) => {
+  const array = new Uint32Array(1);
+  let x;
+  const limit = Math.floor(4294967296 / max) * max;
+  do {
+    crypto.getRandomValues(array);
+    x = array[0];
+  } while (x >= limit);
+  return x % max;
+};
+```
+
+- Password Composition:
