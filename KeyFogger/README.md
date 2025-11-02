@@ -54,3 +54,15 @@ const getRand = (max) => {
 ```
 
 - Password Composition:
+```bash
+const generatePassword = (length = 16) => {
+  const lowers = "abcdefghijkmnopqrstuvwxyz";
+  const uppers = "ABCDEFGHJKLMNPQRSTUVWXYZ";
+  const digits = "23456789";
+  const symbols = "!@#$%^&*()-_=+[]{};:,.?";
+  const pools = [lowers, uppers, digits, symbols];
+  ...
+};
+```
+
+- Smooth Animation with Framer Motion:
