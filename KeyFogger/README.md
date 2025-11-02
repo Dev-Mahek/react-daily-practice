@@ -24,3 +24,13 @@ It creates strong, secure passwords while giving a satisfying mechanical animati
 
 ---
 
+## ⚙️ How It Works
+
+1. Click the GENERATE button.
+2. The mechanical plates animate for a short duration (1000ms).
+3. A new 18-character password is generated using a mix of:
+  -  Lowercase letters (except l)    
+  -  Uppercase letters (except I, O)    
+  -  Digits (except 0, 1)    
+  -  Special symbols (!@#$%^&*()-_=+[]{};:,.?)
+4. The generated password appears in the display box.
