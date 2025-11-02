@@ -1,5 +1,7 @@
 # 🧩 KEY FORGE — Animated Password Generator
 
+<img width="1365" height="693" alt="Screenshot 2025-11-02 094618" src="https://github.com/user-attachments/assets/0ad2fd3c-d517-42b8-92eb-0a9cc735471d" />
+
 **KEY FORGE** is a beautifully designed, animated password generator built with **React** and **Framer Motion**.  
 It creates strong, secure passwords while giving a satisfying mechanical animation inspired by retro machinery aesthetics.  
 
