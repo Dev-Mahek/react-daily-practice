@@ -75,6 +75,10 @@ const generatePassword = (length = 16) => {
 </motion.div>
 ```
 
+## 🖼️ UI Preview
+
+https://github.com/user-attachments/assets/0abce743-5341-41f8-b6ce-9b1eb866aad5
+
 ---
 
 ## 📜 License
