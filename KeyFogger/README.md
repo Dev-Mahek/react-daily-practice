@@ -66,3 +66,16 @@ const generatePassword = (length = 16) => {
 ```
 
 - Smooth Animation with Framer Motion:
+```bash
+<motion.div
+  animate={shouldAnimate ? { y: 24 } : { y: 0 }}
+  transition={{ duration: 0.2, repeat: 3, repeatType: "reverse" }}
+>
+  <img src="plate_1.png" alt="" />
+</motion.div>
+```
+
+---
+
+## 📜 License
+This project is licensed under the MIT License — free to use, modify, and distribute.
